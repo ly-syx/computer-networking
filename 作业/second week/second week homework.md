@@ -14,6 +14,8 @@ d_{P-end-to-end} = (N)\times\frac{L}{R}+(p-1)\times\frac{L}{R} \\
 d_{P-end-to-end} = (N+P-1)\times\frac{L}{R}\\
 $$
 
+![image-20220228161910829](image-20220228161910829.png)
+
 + The end-to-end delay of one  packet form  is (N*L/R), because a  packet need to be transmitted N times
 
 + And we know the different packets could be transmitted by different routers at the same
@@ -27,6 +29,7 @@ $$
     d_{P-end-to-end} = (N+P-1)\times\frac{L}{R}
     $$
     
+    ![image-20220228161934202](image-20220228161934202.png)
 
 
 
@@ -61,3 +64,4 @@ $$
         $$
         sum_{k=N+1}^M \tbinom{M}{N}p^k(1-p)^{M-k}
         $$
+        ![image-20220228161847187](image-20220228161847187.png)
